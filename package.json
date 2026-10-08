@@ -1,0 +1,27 @@
+{
+  "name": "student-audit-management",
+  "version": "1.0.0",
+  "description": "Student Audit Management System backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "create-admin": "node scripts/createAdmin.js",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": ["student", "audit", "management", "backend"],
+  "author": "Tandin Wangchuk",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
